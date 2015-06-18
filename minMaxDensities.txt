@@ -1,0 +1,4 @@
+The sparsest poplation density is at Census Tract 3530.01 (part) with 5536442.00 square feet per person.
+The densest population density is at Census Tract 4062.01 with 69.44 square feet per person.
+The sparsest housing density is at Census Tract 3530.01 (part) with 2768221.00 square feet per house.
+The densest housing density is at Census Tract 4037 with 111.98 square feet per house.
