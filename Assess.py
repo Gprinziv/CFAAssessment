@@ -4,7 +4,12 @@ import csv
 
 """
 A simple module to assess a dataset of census tracts in Oakland, CA
-for Code for America
+for Code for America.
+
+Expects the "tracts.txt" file to be located in the same folder.
+
+Returns the list of densities in a CSV file named "densities.txt", tab-delimited.
+Returns the densest/sparsest tracts in a txt file named "minMaxDensities.txt".
 by Giovanni Prinzivalli
 """
 
@@ -65,7 +70,7 @@ def evalRow(row):
     
     
 if __name__ == "__main__":
-    data = assessDataset("test.txt")
+    data = assessDataset("tracts.txt")
     with open("minMaxDensities.txt", 'w') as wf:
         wf.write("The sparsest poplation density is at %s with %s square feet per person.\n" % (data[1][0], data[1][1]))
         wf.write("The densest population density is at %s with %s square feet per person.\n" % (data[2][0], data[2][1]))
